@@ -1,0 +1,121 @@
+body{
+  background: #000;
+  padding-top: 10px;
+} 
+p{
+
+  color: white; 
+  font-family: cursive;
+  font-size: 30px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+margin-left: 20px;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+h2{
+  animation:type 4s steps(60,end);
+}
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+p:nth-child(3){
+  animation: type2 14s steps(60, end);
+}
+p:nth-child(4){
+  animation: type2 18s steps(60, end);
+}
+
+p:nth-child(5){
+  animation: type2 23s steps(60, end);
+}
+
+
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+
+.img img{
+    width:500px;
+    margin-left: 400px;
+    margin-top: 100px;
+    transiton:6s;
+    animation: pulse 20s ;
+        cursor: pointer;
+            
+}
+
+@keyframes pulse {
+  0% {
+  
+ transform:scale(.1);
+
+  }
+  100% {
+ transform:scale(1.0);
+  }
+}
+
+h1{
+    color:rgb(216,216,216);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+margin-left: 300px;
+   color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h1:nth-child(3){
+    color:rgb(216,216,216);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+margin-left: 300px;
+}
+.img #button{
+    color:rgb(216,216,216);
+    
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 510px;
+    margin-top: 20px;
+   border: 5px double;
+   overflow:;
+   text-shadow: 1px 1px;
+ 
+ 
+}
+#button:hover{
+    transform:scale(1.1);
+animation: blink 3s infinite;
+border-color: pink;
+
+}

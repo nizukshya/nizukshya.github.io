@@ -1,0 +1,17 @@
+.button{
+	border-color: red;
+	color: green;
+	border-radius: 40px;
+	margin-left: 1150px;
+      margin-top: -250px;
+}
+.img img{
+	height: 390px;
+	margin-top: 100px;
+
+}
+
+body,html{
+      background-color: rgb(26,26,29);
+        
+    }

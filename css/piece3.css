@@ -1,0 +1,329 @@
+body{
+  background-color:#9787ea;
+  background-size: 50%;
+  overflow: hidden;
+}
+.container{
+  background-color:none;
+width:50%;
+}
+.down{
+  margin-left: 1100px;
+}
+.up{
+  margin-left:1100px;
+  margin-top:-300px;
+
+  width: 55px;
+}
+.first{
+  margin-left:400px;
+  margin-top: 240px;
+
+   width:40px;
+   position: relative;
+   right: -60px;
+bottom:40px;
+}
+.img img{
+
+
+  animation:img 2s infinite alternate;
+  transition-animation-function:alternative;
+  }
+  @keyframes img{
+  0%{
+  transform:skew(17deg,5deg);
+  }
+
+  100%{
+  transform:scale();
+  }
+  }
+.download{
+
+position: relative;
+left:900px;
+bottom:140px;
+width:30px;
+
+}
+.download:hover{
+  position :relative;
+  transform:scale(1.2);
+}
+
+
+
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 250px;
+top: 0;
+width: 900px; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+border-radius: 40px;
+}
+
+/* Modal Content */
+.modal-content {
+
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+border: 1px solid #888;
+border-color: white;
+
+width: 80%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+-webkit-animation-name: animatetop;
+-webkit-animation-duration: 0.4s;
+animation-name: animatetop;
+animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+
+
+
+color: white;
+float: right;
+font-size: 28px;
+font-weight: bold;
+position: relative;
+right:180px;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+transform:scale(1.4);
+}
+
+.modal-header {
+padding: 2px 16px;
+background-color: rgb(33,33,33);
+color: white;
+font-weight: bold;
+font-family: cursive;
+}
+
+.down:hover,.up:hover{
+  transform:scale(.9);
+}
+  .button
+{
+animation:but 2s infinite alternate;
+}
+@keyframes but{
+0%{
+transform:skew(17deg,5deg);
+}
+100%{
+transform:scale();
+}
+}
+.logo{
+position: relative;
+
+float: left;
+
+}
+body{
+position: absolute;
+height: 99.9%;
+width: 99.9%;
+background: static;
+}
+.video{
+
+position: relative;
+float:center;
+left: 250px;
+border-color: none;
+border-radius: 100%;
+bottom:20px;
+
+}
+.video img:hover,.stat img:hover{
+transform:scale(1.1);
+
+}
+.close{
+position: relative;
+bottom: 90px;
+opacity: 1;
+
+}
+.foot img {
+font-family: verdana;
+font-weight: bold;
+color: white;
+position: relative;
+left: 400px;
+width: 190px;
+
+}
+.foot{
+position:relative;
+bottom:60px;
+height:100px;
+width:100%;background-color:transparent;
+color:white;"
+}
+.foot .text{
+color:white;
+font-family: cursive;
+font-weight: bold;
+position: relative;
+left: 400px;
+bottom: 140px;
+
+}
+.fbicon a img{
+position: relative;
+left: 670px;
+bottom: 35px;
+
+}
+.mute{
+position:relative;
+left:40px;
+top:100px;
+width: 10px;
+color:red;
+height: 20px;
+}
+body {
+font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+.video{
+position: relative;
+bottom:330px;
+left:40px;
+}
+.navbar{
+position:relative;
+height:80px;
+background-color: rgba(0,0,0,0.7);
+background-size: 700px;
+width: 700px;
+left:300px;
+bottom:250px;
+border-radius: 10px;
+
+}.navbar ul li{
+list-style: none;
+display: inline;
+
+
+
+
+}
+.navbar a{
+font-family:cursive;
+font-weight: bold;
+padding:30px;
+
+
+text-decoration: none;
+position: relative;
+top: 30px;
+color: white;
+
+
+}
+.navbar a:hover{
+background-color: teal;
+transition:all 1s ;
+border-radius: 20px;
+}
+#umes{
+color:teal;
+background-color: #d4dada;
+border-radius: 10px;
+position: relative;
+left:110px;
+}
+#umes:hover{
+background-color: black;
+}
+.mute{
+position:relaive;
+bottom:200px;
+}
+.mute #sound{
+position:relative;
+top:100px;
+}
+.mute #mute{
+position:relative;
+top:340px;
+left:20px;
+}
+#facebook {
+background-color:#476AB1;
+border-radius: 100%;
+font-weight: bold;
+position: relative;
+left: 50px;
+}
